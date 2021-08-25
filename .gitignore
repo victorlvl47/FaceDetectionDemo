@@ -1,0 +1,9 @@
+# ignore
+/bin
+/include
+/lib
+/lib64
+/share
+/videos
+pyvenv.cfg
+*.swp
