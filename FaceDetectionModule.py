@@ -58,7 +58,7 @@ class FaceDetector():
 def main():
     print("FaceDetectionModule")
 
-    cap = cv2.VideoCapture("videos/1.mp4")
+    cap = cv2.VideoCapture("> PATH TO VIDEO HERE <")
     pTime = 0
     detector = FaceDetector()
 
@@ -73,7 +73,7 @@ def main():
                 cv2.FONT_HERSHEY_PLAIN, 10, (0, 255, 0), 20)
 
         # resize img
-        resized_img = cv2.resize(img, (640, 480))
+        resized_img = cv2.resize(img, (832, 624))
 
         cv2.imshow("Image", resized_img)
         
